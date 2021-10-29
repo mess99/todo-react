@@ -1,0 +1,61 @@
+.tas {
+  position: relative;
+}
+.tasks {
+  position: absolute;
+  top: 20%;
+  padding: 0;
+  left: 20%;
+  max-height: 370px;
+  overflow: scroll;
+  margin: 0;
+}
+
+.tasks p {
+  margin: 0;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.tasks::-webkit-scrollbar {
+  display: none;
+}
+/* .task:hover {
+  background-color: rgb(240, 97, 97);
+} */
+
+.task {
+  list-style: thai;
+}
+
+.task-done {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.deletee {
+  background-color: #f3dbbf;
+  border: white;
+  cursor: pointer;
+  color: red;
+}
+
+.bg-task {
+  width: 100%;
+}
+
+.btn-delete-all {
+  position: absolute;
+  top: 14%;
+  left: 10%;
+  background-color: #f3dbbf;
+  border: none;
+}
+
+.btn-select-all {
+  position: absolute;
+  top: 14%;
+  right: 10%;
+  background-color: #f3dbbf;
+  border: none;
+}
